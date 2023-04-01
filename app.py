@@ -326,7 +326,10 @@ def query_point_creator(q1,q2):
     
     return np.hstack((np.array(input_query).reshape(1,22),q1_bow,q2_bow))
 
-
+"""
+Created on sat aug 1 12:53:04 2022
+@author: Sunil.Giri
+"""
 st.header('Duplicate Question Pairs')
 
 q1 = st.text_input("Enter question one")
